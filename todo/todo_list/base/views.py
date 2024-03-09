@@ -5,7 +5,7 @@ from django.views.generic.detail import DetailView
 from .models import Task
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView, LogoutView
 # Create your views here.
 
 # def taskList(request):
